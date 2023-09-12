@@ -43,7 +43,7 @@ d2=$(date -d "$now" +%s)
 exp2=$(( (d1 - d2) / 86400 ))
 if [[ "$exp2" = "0" ]]; then
 sed -i "/^### $user $exp/,/^},{/d" /etc/xray/config.json
-rm -f /etc/xray/vmess-$user-tls.json /etc/xray/vmess-$user-nontls.json
+rm -f "/etc/xray/vmess-$user-tls.json" "/etc/xray/vmess-$user-nontls.json"
 fi
 done
 # Delete Vless
