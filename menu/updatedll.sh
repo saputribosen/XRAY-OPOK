@@ -113,7 +113,6 @@ chmod +x viewvmess
 chmod +x addvmessgrpc
 chmod +x dellvmess
 chmod +x rennewvmess
-chmod +x rennewvmessntls
 chmod +x rennewss
 chmod +x certxray
 chmod +x adddomain
