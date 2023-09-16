@@ -31,7 +31,7 @@ echo -e "$BLUE  ╔════════════════════�
 echo -e "$BLUE  ║$NC $BRED                          VMESS-MultiPort                            $BLUE ║"
 echo -e "$BLUE  ╚═══════════════════════════════════════════════════════════════════════╝$NC"
 echo -e "$BLUE  ╔═══════════════════════════════════╦═══════════════════════════════════╗"
-echo -e "$BLUE  ║ $ORANGE     ✶ VMESS WS/GRPC ✶    $BLUE       ║  $ORANGE      ✶ VMESS WS/GRPC ✶      $BLUE   ║"
+echo -e "$BLUE  ║ $ORANGE     ✶ VMESS WS/GRPC ✶     $BLUE       ║   $ORANGE      ✶ VMESS WS/GRPC ✶      $BLUE   ║"
 echo -e "$BLUE  ║-----------------------------------║-----------------------------------║"
 echo -e "$BLUE  ╠➣$NC 1. Create Account Vmess Tls  $BLUE    ╠➣$NC 4. Delete Account Vmess       $BLUE   ║ "
 echo -e "$BLUE  ╠➣$NC 2. Create Account Vmess NTls $BLUE    ╠➣$NC 5. Rennew Account Vmess       $BLUE   ║ "
@@ -63,7 +63,7 @@ dellvmess
 rennewvmess
 ;;
 6)
-viewewvmess
+viewvmess
 ;;
 0)
 menu
