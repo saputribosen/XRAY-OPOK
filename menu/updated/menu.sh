@@ -20,12 +20,11 @@ echo -e "$BLUE╔═════════════════════
 echo -e "$BLUE║  ------------ Menu UTAMA ----------$BLUE   ║"
 echo -e "$BLUE╠═══════════════════════════════════════$BLUE╣"
 echo -e "$BLUE║---------------------------------------║"
-echo -e "$BLUE╠➣$NC 1$NC. XRAY WS/GRPC                $BLUE      ║ "
+echo -e "$BLUE╠➣$NC 1$NC. XRAY VMESS WS/GRPC          $BLUE      ║ "
 echo -e "$BLUE╠➣$NC 2$NC. Restart Services            $BLUE      ║ "
 echo -e "$BLUE╠➣$NC 3$NC. List Port Used              $BLUE      ║ "
 echo -e "$BLUE╠➣$NC 4$NC. Cek Service                 $BLUE      ║ "
 echo -e "$BLUE╠➣$NC 5$NC. Settings                    $BLUE      ║ "
-echo -e "$BLUE╠➣$NC 6$NC. Backup/Restore              $BLUE      ║ "
 echo -e "$BLUE╠➣$NC 0$NC. Exit                        $BLUE      ║ "
 echo -e "$BLUE║---------------------------------------║"
 echo -e "$BLUE╠➣$NC Mod Menu by ARYO                     $BLUE║"
@@ -48,9 +47,6 @@ start-menu
 ;;
 5)
 msettings
-;;
-6)
-mbackup
 ;;
 0)
 clear
